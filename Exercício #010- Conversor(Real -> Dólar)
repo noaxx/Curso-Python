@@ -1,0 +1,4 @@
+n = float(input('Informe o valor: '))
+d = float(input('Quanto está o dólar? '))
+s = n / d
+print(f'Com R${n}, você pode comprar: US${s:.2f} dólares')
