@@ -1,0 +1,9 @@
+n = 1
+c = 1
+while c < 11:
+    for i in range(0,11):
+        print(f'{n} x {i} = {n*i}')
+        if i == 10:
+            c = c + 1
+            n = n + 1
+            print('=-'*10)
