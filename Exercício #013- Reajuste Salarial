@@ -1,0 +1,5 @@
+salario = float(input('Informe o salário: '))
+aum = int(input('Aumento: '))
+porc = (salario*aum)/100
+print(f'Seu salário atual é de R${salario}, com um aumento de {aum}%,'
+      f'seu novo salário será de {salario+porc:.2f}')
