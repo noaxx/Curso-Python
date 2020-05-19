@@ -1,4 +1,4 @@
-from math import trunc  //para truncar o número(retorna inteiro)
+from math import trunc  #para truncar o número(retorna inteiro)
 numero = int(input('Digite um número'))
 dobro = numero * 2
 triplo = numero * 3
@@ -7,5 +7,5 @@ print(f'''
 Seu número: {numero};
 Dobro: {dobro};
 Triplo: {triplo};
-Raiz quadrada: {trunc(raiz_quadrada)}.  // exemplo de trunc: raiz de 9 = 3.0, truca retorna apenas 3 no print
+Raiz quadrada: {trunc(raiz_quadrada)}.  #exemplo de trunc: raiz de 9 = 3.0, truca retorna apenas 3 no print
 ''')
