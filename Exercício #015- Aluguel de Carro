@@ -1,0 +1,6 @@
+dias = int(input('Carro foi alugado por quantos dias? '))
+km = float(input('Quantos km rodados? '))
+p_dias = dias * 60  #60 = preço diario
+p_km = km * 0.15 # 0.15 centavos por km rodado
+print(f'Preço da diário do carro R${p_dias}, preço por km R${p_km},'
+      f'preço total {(p_dias + p_km):.2f}')
