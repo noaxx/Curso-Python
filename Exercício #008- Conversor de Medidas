@@ -1,0 +1,4 @@
+metros = int(input('Informe os metros: '))
+centimetros = metros * 100
+milimetro = metros * 1000
+print(f'{metros} metros em centímetros: {centimetros} e em milímetros: {milimetro}')
