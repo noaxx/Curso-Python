@@ -1,0 +1,5 @@
+preco = float(input('Informe o preço: '))
+desc = int(input('Desconto '))
+porc = (desc*preco)/100
+print(f'R${preco} com desconto de {desc}%, será R${preco - porc}, '
+      f'o deconto foi de {porc}')
