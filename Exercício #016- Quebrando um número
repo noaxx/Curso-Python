@@ -1,0 +1,10 @@
+from math import trunc
+n = float(input('Digite um valor: '))
+print(f'Seu numero é: {n} e a porção inteira é: {trunc(n)}')
+
+'''
+ou
+
+n = float(input('Digite um valor: '))
+print(f'Seu numero é: {n} e a porção inteira é: {int(n)}')
+'''
