@@ -2,7 +2,7 @@ from math import trunc  #para truncar o número(retorna inteiro)
 numero = int(input('Digite um número'))
 dobro = numero * 2
 triplo = numero * 3
-raiz_quadrada = numero ** 0.5
+raiz_quadrada = numero ** 0.5 #ou sqrt (raiz quadrada da biblioteca math)
 print(f'''
 Seu número: {numero};
 Dobro: {dobro};
