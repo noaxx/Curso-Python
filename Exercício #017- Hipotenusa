@@ -1,5 +1,5 @@
 '''
-c1 = float(input("Comprimento do cateto oposto: "))
+c1 = float(input('Comprimento do cateto oposto: '))
 c2 = float(input('Comprimento do cateto adjacente: '))
 h = (c1**2+c2**2)**0.5
 print(f'O comprimento da hipotenusa é: {h:.2f}')
@@ -7,7 +7,7 @@ print(f'O comprimento da hipotenusa é: {h:.2f}')
 ou
 '''
 from math import hypot as hipotenusa
-c1 = float(input("Comprimento do cateto oposto: "))
+c1 = float(input('Comprimento do cateto oposto: '))
 c2 = float(input('Comprimento do cateto adjacente: '))
 h = hipotenusa(c1, c2)
 print(f'O comprimento da hipotenusa é {h:.2f}')
