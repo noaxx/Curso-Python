@@ -1,10 +1,6 @@
-#Eu não fiz esse exercício no pycharm, usei uma idle online
-
 import math
 angulo = float(input('Digite o ângulo que você deseja: '))
 seno = math.sin(math.radians(angulo))
 cos = math.cos(math.radians(angulo))
 tang = math.tan(math.radians(angulo))
 print(f'Seno de {angulo}: {"%.2f" % round(seno,2)}\nCosseno de {angulo}: {"%.2f" % round(cos,2)}\nTangente de {angulo}: {"%.2f" % round(tang,2)}')
-'''Devido a idle online, meus valores não foram convertidos automaticamente, como seria no pycharm, por exemplo.
-Então usei '%.2f' % round(valor, 2), assim arredondei e mostrei 2 números após a vírgula'''
